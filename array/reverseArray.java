@@ -52,11 +52,31 @@ public class reverseArray {
 		for (int k = 0; k < n; k++) { 
 			System.out.println(b[k]); 
 		} 
+
+
 	} 
+
+
+//  Sum of all elements of array
+	public static void sumAll(){
+
+        int [] arr = {1,2,3,4,5};
+		int sum =0;
+		for(int i = 0; i < arr.length; i++){
+			sum = sum+i;
+		}
+		System.out.println("sum of all elements :"+sum);
+	}
+
+
 
 	public static void main(String[] args) 
 	{ 
 		int [] arr = {10, 20, 30, 40, 50}; 
 		reverse(arr, arr.length); 
+
+		sumAll();
+
+
 	} 
 } 

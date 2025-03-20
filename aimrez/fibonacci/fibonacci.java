@@ -1,4 +1,4 @@
-package array.fibonacci;
+package aimrez.fibonacci;
 
 
 public class fibonacci {
